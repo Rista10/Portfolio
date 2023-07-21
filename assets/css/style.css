@@ -587,6 +587,12 @@ img{
         align-items: center;
         column-gap: 6rem;
       }
+
+      .project__container{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right:auto;
+    }
 }
 
 /* for large device */
@@ -609,7 +615,7 @@ img{
       .home__img-profile{
         width: 320px;
         height: 320px;
-        transform: translateX(rem);
+        transform: translateX(4rem);
       }
     
       .home__social{
@@ -618,7 +624,6 @@ img{
 
       .skills__container{
         grid-template-columns: repeat(3,350px);
-        justify-content: center;
       }
 
       .skills__icon{
@@ -636,7 +641,7 @@ img{
 
       .contact__information,
       .contact__input{
-        width: 320px;
+        width: 350px;
       }
 
    
